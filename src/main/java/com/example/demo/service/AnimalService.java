@@ -40,6 +40,6 @@ public class AnimalService {
     }
 
     public Animal getAnimalById(Long id) {
-        return animalRepository.getAnimalById(id).get();
+        return animalRepository.getAnimalById(id.longValue()).get();
     }
 }

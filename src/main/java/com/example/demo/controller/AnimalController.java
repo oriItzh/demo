@@ -27,7 +27,7 @@ public class AnimalController {
         return newAnimal;
     }
 
-    @PostMapping
+    @PostMapping("/batch")
     public List<Animal> addAnimals(@RequestBody List<Animal> animals) {
         List<Animal> newAnimals = new ArrayList<Animal>();
 

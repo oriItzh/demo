@@ -41,7 +41,7 @@ public abstract class Animal {
         return this.gender;
     }
 
-    public long getAdopter() {
+    public Long getAdopter() {
         return this.adopter;
     }
 
@@ -76,6 +76,10 @@ public abstract class Animal {
 
     public String getBreed() {
         return breed;
+    }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
     }
 
 
